@@ -1,5 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { ShoppingListService } from './shopping_list.service';
+import { shoppingList } from '../shared/enumerations';
 
 describe('ShoppingListService', () => {
   let service: ShoppingListService;
